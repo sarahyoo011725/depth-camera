@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Captured camera data (don't commit large binary/test output) ---
+capture_test_output/
+*.png
+*.jpg
+*.jpeg
+*.npy
+*.pcd
+*.ply
+*.bag
+
+# --- Calibration / secrets ---
+*.env
+.env
+config.local.py
+calibration_data.json
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
